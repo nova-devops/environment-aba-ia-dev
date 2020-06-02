@@ -2,4 +2,4 @@
 
 Dependency | Sources | Version | Mismatched versions
 ---------- | ------- | ------- | -------------------
-[abacusfi/hasura](https://github.com/abacusfi/hasura.git) |  | []() | 
+[abacusfi/notification](https://github.com/abacusfi/notification.git) |  | []() | 

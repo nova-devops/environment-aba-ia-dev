@@ -1,7 +1,7 @@
 dependencies:
 - host: github.com
   owner: abacusfi
-  repo: hasura
-  url: https://github.com/abacusfi/hasura.git
+  repo: notification
+  url: https://github.com/abacusfi/notification.git
   version: ""
   versionURL: ""

@@ -1,7 +1,7 @@
 dependencies:
 - host: github.com
   owner: abacusfi
-  repo: graph
-  url: https://github.com/abacusfi/graph.git
+  repo: hasura
+  url: https://github.com/abacusfi/hasura.git
   version: ""
   versionURL: ""

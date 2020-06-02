@@ -2,4 +2,4 @@
 
 Dependency | Sources | Version | Mismatched versions
 ---------- | ------- | ------- | -------------------
-[abacusfi/graph](https://github.com/abacusfi/graph.git) |  | []() | 
+[abacusfi/hasura](https://github.com/abacusfi/hasura.git) |  | []() | 

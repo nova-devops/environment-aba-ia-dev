@@ -1,7 +1,7 @@
 dependencies:
 - host: github.com
   owner: abacusfi
-  repo: proto-scala
-  url: https://github.com/abacusfi/proto-scala.git
+  repo: website
+  url: https://github.com/abacusfi/website.git
   version: ""
   versionURL: ""

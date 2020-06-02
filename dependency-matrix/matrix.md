@@ -2,4 +2,4 @@
 
 Dependency | Sources | Version | Mismatched versions
 ---------- | ------- | ------- | -------------------
-[abacusfi/proto-scala](https://github.com/abacusfi/proto-scala.git) |  | []() | 
+[abacusfi/website](https://github.com/abacusfi/website.git) |  | []() | 

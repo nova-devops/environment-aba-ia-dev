@@ -1,7 +1,7 @@
 dependencies:
 - host: github.com
   owner: abacusfi
-  repo: app
-  url: https://github.com/abacusfi/app.git
+  repo: auth0
+  url: https://github.com/abacusfi/auth0.git
   version: ""
   versionURL: ""

@@ -2,4 +2,4 @@
 
 Dependency | Sources | Version | Mismatched versions
 ---------- | ------- | ------- | -------------------
-[abacusfi/app](https://github.com/abacusfi/app.git) |  | []() | 
+[abacusfi/auth0](https://github.com/abacusfi/auth0.git) |  | []() | 

@@ -1,0 +1,10 @@
+adminUser:
+  password: local:aba-ia/adminUser:password
+  username: admin
+enableDocker: false
+pipelineUser:
+  email: devops@abacusfi.com
+  token: local:aba-ia/pipelineUser:token
+  username: abacus-devops
+prow:
+  hmacToken: local:aba-ia/prow:hmacToken

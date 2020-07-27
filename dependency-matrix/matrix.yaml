@@ -5,3 +5,9 @@ dependencies:
   url: https://github.com/novadev/website.git
   version: ""
   versionURL: ""
+- host: github.com
+  owner: novadev
+  repo: hasura
+  url: https://github.com/novadev/hasura.git
+  version: ""
+  versionURL: ""

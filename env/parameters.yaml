@@ -3,8 +3,8 @@ adminUser:
   username: admin
 enableDocker: false
 pipelineUser:
-  email: devops@abacusfi.com
+  email: devops@novahq.com
   token: local:aba-ia/pipelineUser:token
-  username: abacus-devops
+  username: nova-devops
 prow:
   hmacToken: local:aba-ia/prow:hmacToken

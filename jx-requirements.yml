@@ -5,7 +5,7 @@ bootConfigURL: https://github.com/jenkins-x/jenkins-x-boot-config.git
 cluster:
   clusterName: aba-ia
   devEnvApprovers:
-  - nova-devops
+    - nova-devops
   environmentGitOwner: novadev
   gitKind: github
   gitName: github
@@ -16,37 +16,37 @@ cluster:
   registry: gcr.io
   zone: us-central1
 environments:
-- ingress:
-    cloud_dns_secret_name: external-dns-gcp-sa
-    domain: ia.aba.xyz
-    externalDNS: true
-    namespaceSubDomain: .
-    tls:
-      email: devops@abacusfi.com
-      enabled: true
-      production: true
-  key: dev
-  repository: environment-aba-ia-dev
-- ingress:
-    domain: ""
-    externalDNS: false
-    namespaceSubDomain: ""
-    tls:
-      email: ""
-      enabled: false
-      production: false
-  key: staging
-  repository: environment-aba-ia-staging
-- ingress:
-    domain: ""
-    externalDNS: false
-    namespaceSubDomain: ""
-    tls:
-      email: ""
-      enabled: false
-      production: false
-  key: production
-  repository: environment-aba-ia-production
+  - ingress:
+      cloud_dns_secret_name: external-dns-gcp-sa
+      domain: ia.aba.xyz
+      externalDNS: true
+      namespaceSubDomain: .
+      tls:
+        email: devops@novahq.com
+        enabled: true
+        production: true
+    key: dev
+    repository: environment-aba-ia-dev
+  - ingress:
+      domain: ""
+      externalDNS: false
+      namespaceSubDomain: ""
+      tls:
+        email: ""
+        enabled: false
+        production: false
+    key: staging
+    repository: environment-aba-ia-staging
+  - ingress:
+      domain: ""
+      externalDNS: false
+      namespaceSubDomain: ""
+      tls:
+        email: ""
+        enabled: false
+        production: false
+    key: production
+    repository: environment-aba-ia-production
 gitops: true
 ingress:
   cloud_dns_secret_name: external-dns-gcp-sa
@@ -54,7 +54,7 @@ ingress:
   externalDNS: true
   namespaceSubDomain: .
   tls:
-    email: devops@abacusfi.com
+    email: devops@novahq.com
     enabled: true
     production: true
 kaniko: true

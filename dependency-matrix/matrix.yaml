@@ -1,0 +1,7 @@
+dependencies:
+- host: github.com
+  owner: novadev
+  repo: website
+  url: https://github.com/novadev/website.git
+  version: ""
+  versionURL: ""

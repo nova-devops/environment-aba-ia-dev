@@ -1,0 +1,21 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: abacusfi
+    provider: github
+    repository: notification
+  name: abacusfi-notification
+spec:
+  description: Imported application for abacusfi/notification
+  httpCloneURL: https://github.com/abacusfi/notification.git
+  org: abacusfi
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: notification
+  scheduler:
+    kind: ""
+    name: ""
+  url: https://github.com/abacusfi/notification.git

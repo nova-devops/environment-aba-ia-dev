@@ -1,0 +1,21 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: novadev
+    provider: github
+    repository: website
+  name: novadev-website
+spec:
+  description: Imported application for novadev/website
+  httpCloneURL: https://github.com/novadev/website.git
+  org: novadev
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: website
+  scheduler:
+    kind: ""
+    name: ""
+  url: https://github.com/novadev/website.git

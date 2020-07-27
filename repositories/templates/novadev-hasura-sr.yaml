@@ -1,0 +1,21 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: novadev
+    provider: github
+    repository: hasura
+  name: novadev-hasura
+spec:
+  description: Imported application for novadev/hasura
+  httpCloneURL: https://github.com/novadev/hasura.git
+  org: novadev
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: hasura
+  scheduler:
+    kind: ""
+    name: ""
+  url: https://github.com/novadev/hasura.git

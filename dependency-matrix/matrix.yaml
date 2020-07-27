@@ -1,7 +1,7 @@
 dependencies:
 - host: github.com
-  owner: abacusfi
+  owner: novadev
   repo: website
-  url: https://github.com/abacusfi/website.git
+  url: https://github.com/novadev/website.git
   version: ""
   versionURL: ""

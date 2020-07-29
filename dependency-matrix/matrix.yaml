@@ -29,3 +29,9 @@ dependencies:
   url: https://github.com/novadev/auth0.git
   version: ""
   versionURL: ""
+- host: github.com
+  owner: novadev
+  repo: notification
+  url: https://github.com/novadev/notification.git
+  version: ""
+  versionURL: ""

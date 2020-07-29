@@ -1,0 +1,21 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: novadev
+    provider: github
+    repository: auth0
+  name: novadev-auth0
+spec:
+  description: Imported application for novadev/auth0
+  httpCloneURL: https://github.com/novadev/auth0.git
+  org: novadev
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: auth0
+  scheduler:
+    kind: ""
+    name: ""
+  url: https://github.com/novadev/auth0.git

@@ -41,3 +41,9 @@ dependencies:
   url: https://github.com/novadev/pdfops.git
   version: ""
   versionURL: ""
+- host: github.com
+  owner: novadev
+  repo: proto-scala
+  url: https://github.com/novadev/proto-scala.git
+  version: ""
+  versionURL: ""

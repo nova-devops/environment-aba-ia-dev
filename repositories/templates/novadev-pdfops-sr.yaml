@@ -1,0 +1,21 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: novadev
+    provider: github
+    repository: pdfops
+  name: novadev-pdfops
+spec:
+  description: Imported application for novadev/pdfops
+  httpCloneURL: https://github.com/novadev/pdfops.git
+  org: novadev
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: pdfops
+  scheduler:
+    kind: ""
+    name: ""
+  url: https://github.com/novadev/pdfops.git

@@ -8,3 +8,4 @@ Dependency | Sources | Version | Mismatched versions
 [novadev/graph](https://github.com/novadev/graph.git) |  | []() | 
 [novadev/auth0](https://github.com/novadev/auth0.git) |  | []() | 
 [novadev/notification](https://github.com/novadev/notification.git) |  | []() | 
+[novadev/pdfops](https://github.com/novadev/pdfops.git) |  | []() | 

@@ -9,3 +9,4 @@ Dependency | Sources | Version | Mismatched versions
 [novadev/auth0](https://github.com/novadev/auth0.git) |  | []() | 
 [novadev/notification](https://github.com/novadev/notification.git) |  | []() | 
 [novadev/pdfops](https://github.com/novadev/pdfops.git) |  | []() | 
+[novadev/proto-scala](https://github.com/novadev/proto-scala.git) |  | []() | 

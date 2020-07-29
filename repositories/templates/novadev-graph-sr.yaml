@@ -1,0 +1,21 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: novadev
+    provider: github
+    repository: graph
+  name: novadev-graph
+spec:
+  description: Imported application for novadev/graph
+  httpCloneURL: https://github.com/novadev/graph.git
+  org: novadev
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: graph
+  scheduler:
+    kind: ""
+    name: ""
+  url: https://github.com/novadev/graph.git

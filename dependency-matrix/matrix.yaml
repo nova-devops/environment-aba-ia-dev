@@ -17,3 +17,9 @@ dependencies:
   url: https://github.com/novadev/app.git
   version: ""
   versionURL: ""
+- host: github.com
+  owner: novadev
+  repo: graph
+  url: https://github.com/novadev/graph.git
+  version: ""
+  versionURL: ""

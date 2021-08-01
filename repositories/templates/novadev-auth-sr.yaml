@@ -2,7 +2,7 @@ apiVersion: jenkins.io/v1
 kind: SourceRepository
 metadata:
   annotations:
-    jenkins.io/last-build-number-for-master: "16"
+    jenkins.io/last-build-number-for-master: "17"
   creationTimestamp: null
   labels:
     jenkins.io/chart-release: repos
@@ -38,16 +38,7 @@ metadata:
         f:url: {}
     manager: jx
     operation: Update
-    time: "2021-08-01T09:57:00Z"
-  - apiVersion: jenkins.io/v1
-    fieldsType: FieldsV1
-    fieldsV1:
-      f:metadata:
-        f:annotations:
-          f:jenkins.io/last-build-number-for-master: {}
-    manager: kubectl
-    operation: Update
-    time: "2021-08-01T10:56:21Z"
+    time: "2021-08-01T11:01:10Z"
   name: novadev-auth
 spec:
   description: Imported application for novadev/auth

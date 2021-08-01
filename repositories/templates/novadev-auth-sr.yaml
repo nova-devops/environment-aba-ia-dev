@@ -2,7 +2,7 @@ apiVersion: jenkins.io/v1
 kind: SourceRepository
 metadata:
   annotations:
-    jenkins.io/last-build-number-for-master: "7"
+    jenkins.io/last-build-number-for-master: "8"
   creationTimestamp: null
   labels:
     owner: novadev
@@ -13,7 +13,9 @@ metadata:
     fieldsType: FieldsV1
     fieldsV1:
       f:metadata:
-        f:annotations: {}
+        f:annotations:
+          .: {}
+          f:jenkins.io/last-build-number-for-master: {}
         f:labels:
           .: {}
           f:owner: {}
@@ -35,16 +37,7 @@ metadata:
         f:url: {}
     manager: jx
     operation: Update
-    time: "2021-08-01T09:08:22Z"
-  - apiVersion: jenkins.io/v1
-    fieldsType: FieldsV1
-    fieldsV1:
-      f:metadata:
-        f:annotations:
-          f:jenkins.io/last-build-number-for-master: {}
-    manager: lighthouse-jx-controller
-    operation: Update
-    time: "2021-08-01T09:10:09Z"
+    time: "2021-08-01T09:13:43Z"
   name: novadev-auth
 spec:
   description: Imported application for novadev/auth

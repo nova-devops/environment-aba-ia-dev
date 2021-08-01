@@ -1,0 +1,48 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: novadev
+    provider: github
+    repository: auth
+  managedFields:
+  - apiVersion: jenkins.io/v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:metadata:
+        f:labels:
+          .: {}
+          f:owner: {}
+          f:provider: {}
+          f:repository: {}
+      f:spec:
+        .: {}
+        f:description: {}
+        f:httpCloneURL: {}
+        f:org: {}
+        f:provider: {}
+        f:providerKind: {}
+        f:providerName: {}
+        f:repo: {}
+        f:scheduler:
+          .: {}
+          f:kind: {}
+          f:name: {}
+        f:url: {}
+    manager: jx
+    operation: Update
+    time: "2021-08-01T07:32:32Z"
+  name: novadev-auth
+spec:
+  description: Imported application for novadev/auth
+  httpCloneURL: https://github.com/novadev/auth.git
+  org: novadev
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: auth
+  scheduler:
+    kind: ""
+    name: ""
+  url: git@github.com:novadev/auth.git
